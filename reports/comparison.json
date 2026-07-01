@@ -1,0 +1,43 @@
+{
+  "memory_cache": {
+    "availability": 0.9833,
+    "latency_p50_ms": 263.81,
+    "latency_p95_ms": 312.63,
+    "latency_p99_ms": 316.32,
+    "fallback_success_rate": 0.9512,
+    "cache_hit_rate": 0.4333,
+    "estimated_cost": 0.029672,
+    "estimated_cost_saved": 0.052,
+    "circuit_open_count": 5,
+    "recovery_time_ms": 2229.9318313598633
+  },
+  "no_cache": {
+    "availability": 0.975,
+    "latency_p50_ms": 265.18,
+    "latency_p95_ms": 309.5,
+    "latency_p99_ms": 314.89,
+    "fallback_success_rate": 0.9552,
+    "cache_hit_rate": 0.0,
+    "estimated_cost": 0.053062,
+    "estimated_cost_saved": 0.0,
+    "circuit_open_count": 7,
+    "recovery_time_ms": 2243.269205093384
+  },
+  "redis_cache": {
+    "availability": 0.9833,
+    "latency_p50_ms": 291.54,
+    "latency_p95_ms": 317.27,
+    "latency_p99_ms": 319.48,
+    "fallback_success_rate": 0.9355,
+    "cache_hit_rate": 0.6833,
+    "estimated_cost": 0.014114,
+    "estimated_cost_saved": 0.082,
+    "circuit_open_count": 4,
+    "recovery_time_ms": null
+  },
+  "scenarios": {
+    "primary_timeout_100": "pass",
+    "primary_flaky_50": "pass",
+    "all_healthy": "pass"
+  }
+}
